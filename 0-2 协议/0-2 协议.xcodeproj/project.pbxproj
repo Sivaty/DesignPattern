@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B40E968258DDBC9002642FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B40E967258DDBC9002642FA /* main.m */; };
-		3B40E971258DDBE5002642FA /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B40E970258DDBE5002642FA /* Animal.m */; };
-		3B40E975258DDCA0002642FA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B40E974258DDCA0002642FA /* Dog.m */; };
-		3B40E979258DDCB2002642FA /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B40E978258DDCB2002642FA /* Cat.m */; };
+		3B40E989258DE6DB002642FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B40E988258DE6DB002642FA /* main.m */; };
+		3B40E996258DEC4F002642FA /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B40E991258DEC4E002642FA /* Cat.m */; };
+		3B40E997258DEC4F002642FA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B40E993258DEC4E002642FA /* Dog.m */; };
+		3B40E998258DEC4F002642FA /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B40E995258DEC4E002642FA /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3B40E962258DDBC9002642FA /* CopyFiles */ = {
+		3B40E983258DE6DB002642FA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,18 +26,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3B40E964258DDBC9002642FA /* 多态 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "多态"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B40E967258DDBC9002642FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B40E96F258DDBE5002642FA /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
-		3B40E970258DDBE5002642FA /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
-		3B40E973258DDCA0002642FA /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
-		3B40E974258DDCA0002642FA /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
-		3B40E977258DDCB2002642FA /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
-		3B40E978258DDCB2002642FA /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		3B40E985258DE6DB002642FA /* 0-2 协议 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0-2 协议"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B40E988258DE6DB002642FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B40E990258DEC4E002642FA /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		3B40E991258DEC4E002642FA /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		3B40E992258DEC4E002642FA /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		3B40E993258DEC4E002642FA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		3B40E994258DEC4E002642FA /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		3B40E995258DEC4E002642FA /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		3B40E99A258DED0D002642FA /* ChangeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B40E961258DDBC9002642FA /* Frameworks */ = {
+		3B40E982258DE6DB002642FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,70 +48,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B40E95B258DDBC9002642FA = {
+		3B40E97C258DE6DB002642FA = {
 			isa = PBXGroup;
 			children = (
-				3B40E966258DDBC9002642FA /* 多态 */,
-				3B40E965258DDBC9002642FA /* Products */,
+				3B40E987258DE6DB002642FA /* 0-2 协议 */,
+				3B40E986258DE6DB002642FA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3B40E965258DDBC9002642FA /* Products */ = {
+		3B40E986258DE6DB002642FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B40E964258DDBC9002642FA /* 多态 */,
+				3B40E985258DE6DB002642FA /* 0-2 协议 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B40E966258DDBC9002642FA /* 多态 */ = {
+		3B40E987258DE6DB002642FA /* 0-2 协议 */ = {
 			isa = PBXGroup;
 			children = (
-				3B40E967258DDBC9002642FA /* main.m */,
-				3B40E96F258DDBE5002642FA /* Animal.h */,
-				3B40E970258DDBE5002642FA /* Animal.m */,
-				3B40E973258DDCA0002642FA /* Dog.h */,
-				3B40E974258DDCA0002642FA /* Dog.m */,
-				3B40E977258DDCB2002642FA /* Cat.h */,
-				3B40E978258DDCB2002642FA /* Cat.m */,
+				3B40E988258DE6DB002642FA /* main.m */,
+				3B40E992258DEC4E002642FA /* Animal.h */,
+				3B40E995258DEC4E002642FA /* Animal.m */,
+				3B40E990258DEC4E002642FA /* Cat.h */,
+				3B40E991258DEC4E002642FA /* Cat.m */,
+				3B40E994258DEC4E002642FA /* Dog.h */,
+				3B40E993258DEC4E002642FA /* Dog.m */,
+				3B40E99A258DED0D002642FA /* ChangeProtocol.h */,
 			);
-			path = "多态";
+			path = "0-2 协议";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B40E963258DDBC9002642FA /* 多态 */ = {
+		3B40E984258DE6DB002642FA /* 0-2 协议 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B40E96B258DDBC9002642FA /* Build configuration list for PBXNativeTarget "多态" */;
+			buildConfigurationList = 3B40E98C258DE6DB002642FA /* Build configuration list for PBXNativeTarget "0-2 协议" */;
 			buildPhases = (
-				3B40E960258DDBC9002642FA /* Sources */,
-				3B40E961258DDBC9002642FA /* Frameworks */,
-				3B40E962258DDBC9002642FA /* CopyFiles */,
+				3B40E981258DE6DB002642FA /* Sources */,
+				3B40E982258DE6DB002642FA /* Frameworks */,
+				3B40E983258DE6DB002642FA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "多态";
-			productName = "多态";
-			productReference = 3B40E964258DDBC9002642FA /* 多态 */;
+			name = "0-2 协议";
+			productName = "0-2 协议";
+			productReference = 3B40E985258DE6DB002642FA /* 0-2 协议 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3B40E95C258DDBC9002642FA /* Project object */ = {
+		3B40E97D258DE6DB002642FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					3B40E963258DDBC9002642FA = {
+					3B40E984258DE6DB002642FA = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = 3B40E95F258DDBC9002642FA /* Build configuration list for PBXProject "多态" */;
+			buildConfigurationList = 3B40E980258DE6DB002642FA /* Build configuration list for PBXProject "0-2 协议" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,32 +120,32 @@
 				en,
 				Base,
 			);
-			mainGroup = 3B40E95B258DDBC9002642FA;
-			productRefGroup = 3B40E965258DDBC9002642FA /* Products */;
+			mainGroup = 3B40E97C258DE6DB002642FA;
+			productRefGroup = 3B40E986258DE6DB002642FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B40E963258DDBC9002642FA /* 多态 */,
+				3B40E984258DE6DB002642FA /* 0-2 协议 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B40E960258DDBC9002642FA /* Sources */ = {
+		3B40E981258DE6DB002642FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B40E979258DDCB2002642FA /* Cat.m in Sources */,
-				3B40E975258DDCA0002642FA /* Dog.m in Sources */,
-				3B40E968258DDBC9002642FA /* main.m in Sources */,
-				3B40E971258DDBE5002642FA /* Animal.m in Sources */,
+				3B40E997258DEC4F002642FA /* Dog.m in Sources */,
+				3B40E998258DEC4F002642FA /* Animal.m in Sources */,
+				3B40E996258DEC4F002642FA /* Cat.m in Sources */,
+				3B40E989258DE6DB002642FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3B40E969258DDBC9002642FA /* Debug */ = {
+		3B40E98A258DE6DB002642FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +204,7 @@
 			};
 			name = Debug;
 		};
-		3B40E96A258DDBC9002642FA /* Release */ = {
+		3B40E98B258DE6DB002642FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +256,7 @@
 			};
 			name = Release;
 		};
-		3B40E96C258DDBC9002642FA /* Debug */ = {
+		3B40E98D258DE6DB002642FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -264,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		3B40E96D258DDBC9002642FA /* Release */ = {
+		3B40E98E258DE6DB002642FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -277,25 +279,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B40E95F258DDBC9002642FA /* Build configuration list for PBXProject "多态" */ = {
+		3B40E980258DE6DB002642FA /* Build configuration list for PBXProject "0-2 协议" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B40E969258DDBC9002642FA /* Debug */,
-				3B40E96A258DDBC9002642FA /* Release */,
+				3B40E98A258DE6DB002642FA /* Debug */,
+				3B40E98B258DE6DB002642FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B40E96B258DDBC9002642FA /* Build configuration list for PBXNativeTarget "多态" */ = {
+		3B40E98C258DE6DB002642FA /* Build configuration list for PBXNativeTarget "0-2 协议" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B40E96C258DDBC9002642FA /* Debug */,
-				3B40E96D258DDBC9002642FA /* Release */,
+				3B40E98D258DE6DB002642FA /* Debug */,
+				3B40E98E258DE6DB002642FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3B40E95C258DDBC9002642FA /* Project object */;
+	rootObject = 3B40E97D258DE6DB002642FA /* Project object */;
 }
