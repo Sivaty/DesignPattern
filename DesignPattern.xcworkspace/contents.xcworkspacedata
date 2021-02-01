@@ -11,7 +11,7 @@
       location = "group:0-2 &#x534f;&#x8bae;/0-2 &#x534f;&#x8bae;.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/link/DesignPattern/&#x591a;&#x6001;/0-1 &#x591a;&#x6001;.xcodeproj">
+      location = "group:&#x591a;&#x6001;/0-1 &#x591a;&#x6001;.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:&#x62bd;&#x8c61;&#x5de5;&#x5382;&#x6a21;&#x5f0f;(Abstract Factory Pattern)/&#x62bd;&#x8c61;&#x5de5;&#x5382;&#x6a21;&#x5f0f;(Abstract Factory Pattern).xcodeproj">
