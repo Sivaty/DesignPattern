@@ -8,7 +8,7 @@
 import Foundation
 
 class InputManager {
-    class func inputANumber() -> Float {
+    static func inputNumber() -> Float {
         print("请输入一个数：")
         let input = String(data: FileHandle.standardInput.availableData, encoding: .utf8)
         guard var string = input else { return 0 }
@@ -17,7 +17,7 @@ class InputManager {
         return number
     }
     
-    class func inputAChar() -> String {
+    static func inputOperator() -> String {
         print("请输入一个运算符号(+、-、*、/)：")
         let input = String(data: FileHandle.standardInput.availableData, encoding: .utf8)
         guard var string = input else { return "" }

@@ -8,10 +8,10 @@
 import Foundation
 
 class Main1 {
-class func calculate() {
-    let a = InputManager.inputANumber()
-    let char = InputManager.inputAChar()
-    let b = InputManager.inputANumber()
+static func calculate() {
+    let a = InputManager.inputNumber()
+    let char = InputManager.inputOperator()
+    let b = InputManager.inputNumber()
     
     var result: Float = 0
     

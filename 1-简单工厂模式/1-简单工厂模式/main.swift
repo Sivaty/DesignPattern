@@ -7,4 +7,4 @@
 
 import Foundation
 
-Main1.calculate()
+Main3.calculate()
