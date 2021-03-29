@@ -2,6 +2,30 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:10-&#x89c2;&#x5bdf;&#x8005;&#x6a21;&#x5f0f;/10-&#x89c2;&#x5bdf;&#x8005;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:9-&#x5efa;&#x9020;&#x8005;&#x6a21;&#x5f0f;/9-&#x5efa;&#x9020;&#x8005;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8-&#x5916;&#x89c2;&#x6a21;&#x5f0f;/8-&#x5916;&#x89c2;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-&#x6a21;&#x677f;&#x65b9;&#x6cd5;&#x6a21;&#x5f0f;/7-&#x6a21;&#x677f;&#x65b9;&#x6cd5;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6-&#x539f;&#x578b;&#x6a21;&#x5f0f;/6-&#x539f;&#x578b;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5-&#x5de5;&#x5382;&#x65b9;&#x6cd5;&#x6a21;&#x5f0f;/5-&#x5de5;&#x5382;&#x65b9;&#x6cd5;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:4-&#x4ee3;&#x7406;&#x6a21;&#x5f0f;/4-&#x4ee3;&#x7406;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:3-&#x88c5;&#x9970;&#x6a21;&#x5f0f;/3-&#x88c5;&#x9970;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:2-&#x7b56;&#x7565;&#x6a21;&#x5f0f;/2-&#x7b56;&#x7565;&#x6a21;&#x5f0f;.xcodeproj">
    </FileRef>
    <FileRef
@@ -12,11 +36,5 @@
    </FileRef>
    <FileRef
       location = "group:&#x591a;&#x6001;/0-1 &#x591a;&#x6001;.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:&#x62bd;&#x8c61;&#x5de5;&#x5382;&#x6a21;&#x5f0f;(Abstract Factory Pattern)/&#x62bd;&#x8c61;&#x5de5;&#x5382;&#x6a21;&#x5f0f;(Abstract Factory Pattern).xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:&#x5de5;&#x5382;&#x6a21;&#x5f0f;(Factory Pattern)/&#x5de5;&#x5382;&#x6a21;&#x5f0f;(Factory Pattern).xcodeproj">
    </FileRef>
 </Workspace>

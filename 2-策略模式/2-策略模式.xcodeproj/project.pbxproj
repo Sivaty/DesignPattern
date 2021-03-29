@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01CFE3552609F62B003B9103 /* main1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE3542609F62B003B9103 /* main1.swift */; };
+		01CFE35B2609FC45003B9103 /* main2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE35A2609FC45003B9103 /* main2.swift */; };
+		01CFE3602609FD81003B9103 /* main3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE35F2609FD81003B9103 /* main3.swift */; };
+		01CFE365260ADD9F003B9103 /* main4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE364260ADD9F003B9103 /* main4.swift */; };
 		3BCB1BDE259434F100F19DBF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCB1BDD259434F100F19DBF /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01CFE3542609F62B003B9103 /* main1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main1.swift; sourceTree = "<group>"; };
+		01CFE35A2609FC45003B9103 /* main2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main2.swift; sourceTree = "<group>"; };
+		01CFE35F2609FD81003B9103 /* main3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main3.swift; sourceTree = "<group>"; };
+		01CFE364260ADD9F003B9103 /* main4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main4.swift; sourceTree = "<group>"; };
 		3BCB1BDA259434F100F19DBF /* 2-策略模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2-策略模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCB1BDD259434F100F19DBF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +46,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01CFE3532609F60A003B9103 /* 1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				01CFE3542609F62B003B9103 /* main1.swift */,
+			);
+			path = 1.0;
+			sourceTree = "<group>";
+		};
+		01CFE3592609FC2E003B9103 /* 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				01CFE35A2609FC45003B9103 /* main2.swift */,
+			);
+			path = 2.0;
+			sourceTree = "<group>";
+		};
+		01CFE35E2609FD72003B9103 /* 3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				01CFE35F2609FD81003B9103 /* main3.swift */,
+			);
+			path = 3.0;
+			sourceTree = "<group>";
+		};
+		01CFE363260ADD8D003B9103 /* 4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				01CFE364260ADD9F003B9103 /* main4.swift */,
+			);
+			path = 4.0;
+			sourceTree = "<group>";
+		};
 		3BCB1BD1259434F100F19DBF = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +97,10 @@
 		3BCB1BDC259434F100F19DBF /* 2-策略模式 */ = {
 			isa = PBXGroup;
 			children = (
+				01CFE363260ADD8D003B9103 /* 4.0 */,
+				01CFE35E2609FD72003B9103 /* 3.0 */,
+				01CFE3592609FC2E003B9103 /* 2.0 */,
+				01CFE3532609F60A003B9103 /* 1.0 */,
 				3BCB1BDD259434F100F19DBF /* main.swift */,
 			);
 			path = "2-策略模式";
@@ -119,6 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CFE35B2609FC45003B9103 /* main2.swift in Sources */,
+				01CFE365260ADD9F003B9103 /* main4.swift in Sources */,
+				01CFE3552609F62B003B9103 /* main1.swift in Sources */,
+				01CFE3602609FD81003B9103 /* main3.swift in Sources */,
 				3BCB1BDE259434F100F19DBF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
