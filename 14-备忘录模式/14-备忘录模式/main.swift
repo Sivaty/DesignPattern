@@ -7,3 +7,4 @@
 
 import Foundation
 
+main3.main()
