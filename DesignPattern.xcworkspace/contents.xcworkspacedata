@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:21-&#x4e2d;&#x4ecb;&#x8005;&#x6a21;&#x5f0f;/21-&#x4e2d;&#x4ecb;&#x8005;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/sengshuaibin/DesignPattern/20-&#x8d23;&#x4efb;&#x94fe;&#x6a21;&#x5f0f;/20-&#x804c;&#x8d23;&#x94fe;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:19-&#x547d;&#x4ee4;&#x6a21;&#x5f0f;/19-&#x547d;&#x4ee4;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:18-&#x6865;&#x63a5;&#x6a21;&#x5f0f;/18-&#x6865;&#x63a5;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:17-&#x5355;&#x4f8b;&#x6a21;&#x5f0f;/17-&#x5355;&#x4f8b;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:16-&#x8fed;&#x4ee3;&#x5668;&#x6a21;&#x5f0f;/16-&#x8fed;&#x4ee3;&#x5668;&#x6a21;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:15-&#x7ec4;&#x5408;&#x6a21;&#x5f0f;/15-&#x7ec4;&#x5408;&#x6a21;&#x5f0f;.xcodeproj">
    </FileRef>
    <FileRef
