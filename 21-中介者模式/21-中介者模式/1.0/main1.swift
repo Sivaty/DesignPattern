@@ -7,10 +7,12 @@
 
 import Cocoa
 
+//抽象中介者
 protocol Mediator {
     func send(message: String, colleague: Colleague)
 }
 
+//抽象同事
 protocol Colleague {
     var mediator: Mediator { set get }
 }
@@ -29,7 +31,6 @@ class main1: NSObject {
     }
     
     class ConcreteMediator: Mediator {
-        
         var colleague1: ConcreteColleague1?
         var colleague2: ConcreteColleague2?
         
